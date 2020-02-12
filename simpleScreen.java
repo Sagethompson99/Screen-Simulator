@@ -5,8 +5,8 @@ public class simpleScreen {
 	private int displayHeight;
 	private int displayWidth;
 	private int numFramesToCall;
-	private String pixelOn;
-	private String pixelOff;
+	private String pixelOn; //String value of an on pixel
+	private String pixelOff; //string value of an off pixel
 	
 	simpleScreen(int displayHeight, int displayWidth, int numFrames, String pixelOn, String pixelOff){
 		this.displayHeight = displayHeight;
